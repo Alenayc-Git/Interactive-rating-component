@@ -47,7 +47,8 @@ main{
 .state-start{
     width: 350px;
     height: 370px;
-    background-color: var(--Dark-Blue);
+    background: -webkit-gradient(linear, left bottom, left top, from(#191d24), to(#252d37));
+    background: linear-gradient(bottom, #191d24, #252d37);
     border-radius: 18px;
 }
 
@@ -128,7 +129,8 @@ button:hover{
 .thank-you-state{
     width: 350px;
     height: 370px;
-    background-color: var(--Dark-Blue);
+    background: -webkit-gradient(linear, left bottom, left top, from(#191d24), to(#252d37));
+    background: linear-gradient(bottom, #191d24, #252d37);
     border-radius: 18px;
 }
 
