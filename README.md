@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Site-Fm](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n/hub/responsive-fylo-data-storage-with-absolute-propertys-cIkaW5lXSc)
-- Live Site URL: [Site-Url](https://fylodatastoragecompfm.netlify.app/)
+- Solution URL: [Site-Fm](https://www.frontendmentor.io/solutions/interactive-rating-component-with-flexbox-and-basic-javascript-l5BdcL86ig)
+- Live Site URL: [Site-Url](https://interactiveratingcompfm.netlify.app/)
 
 ## My process
 
@@ -42,7 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Mobile-first workflow
 - Flexbox
-- Js
+- JavaScript
 
 
 ### What I learned
