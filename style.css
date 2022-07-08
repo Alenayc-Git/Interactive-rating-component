@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root{
+    /* ### Primary */
+
+    --Orange: hsl(25, 97%, 53%);
+
+    /* ### Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Overpass";
+}
+
+p{
+    font-size: 15px;
+}
+
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.state-start{
+    width: 350px;
+    height: 370px;
+    background-color: var(--Dark-Blue);
+    border-radius: 18px;
+}
+
+.state-container{
+    padding: 2rem 1.6rem;
+}
+
+.icon-start{
+    background-color: var(--Very-Dark-Blue);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.state-container h1{
+    color: var(--White);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.state-container p{
+    color: var(--Light-Grey);
+    margin-bottom: 1rem;
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    color: var(--Light-Grey);
+    margin-bottom: 2rem;
+}
+
+.rating-number{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.rating-number:hover{
+    background-color: var(--Medium-Grey);
+    color: var(--White);
+}
+
+.rating-selected{
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: var(--White);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: var(--Orange);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+button:hover{
+    background-color: var(--White);
+    color: orange;
+}
+
+.thank-you-state{
+    width: 350px;
+    height: 370px;
+    background-color: var(--Dark-Blue);
+    border-radius: 18px;
+}
+
+.thankyou-state-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2.5rem 1.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.thankyou-state-container h2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--Orange);
+}
+
+.rating-text{
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: var(--Very-Dark-Blue);
+}
+
+.thankyou-state-container h3{
+    color: var(--White);
+}
+
+.thankyou-state-container p{
+    color: var(--Light-Grey);
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (min-width:732px) {
+    .state-start,.thank-you-state{
+        width: 400px;
+        height: 380px;
+    }
+
+    .state-container{
+        padding: 2rem 2rem;
+    }
+    .rating{
+        justify-content: space-around;
+    }
+
+    .rating-number{
+        width: 50px;
+        height: 50px;
+    }
+}
